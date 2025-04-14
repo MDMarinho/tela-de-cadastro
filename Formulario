@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>FORMULÁRIOS</title>
+</head>
+<body>
+<form action=“http://www.unisuam.edu.br” method=post>
+
+Nome ……….     <input type=“text” name=“nome” size=60><br>
+Telefone……. <input type=“text” name=“tel” size=20 maxlenght=15><br>
+E-mail ………  <input type=“text” name=“email” size=20 maxlenght=20><br>
+Nascimento … <input type="date" name="aniversario"/><br><br><br>
+Estado civil<br><br>
+<input type="radio" name=“ecivil” value=“solteiro”> Solteiro(a)<br>
+<input type="radio" name=“ecivil” value=“casado”> Casado(a)<br>
+<input type="radio" name=“ecivil” value=“viuvo””> Viuvo(a)<br>
+<input type="radio" name=“ecivil” value=“divorciado”> Divorciado(a)<br>
+<br><br>
+DOCUMENTOS APRESENTADOS<br><br><br>
+<font color=“blue”>
+<input type="checkbox"  name=“teste”>
+    <label for=“teste”>Carteira profissional</label>
+<input type="checkbox"  name=“teste” />
+    <label for=“teste”>Identidade</label>
+<input type="checkbox"  name=“teste” />
+    <label for=“teste”>CPF</label>
+<br><br><br><br><br>
+
+PROFISSÃO<br><br><br>
+<select name=“prof”>
+<option>Professor(a)
+<option>Analista de Sistemas
+<option selected>Estudante
+<option>Médico(a)
+<option>Engenheiro(a)
+</select>
+<br><br><br><br><br>
+CIDADE
+<br>
+<select name=“cid”>
+<option select>Rio de Janeiro
+<option>Duque de Caxias
+<option>Nova Iguaçú
+<option>Niterói
+</select>
+<br><br><br>
+COMENTÁRIOS<BR><BR>
+<textarea name=“coment” rows=5 cols=70>
+</textarea><br><br><br>
+<input type=“submit” value=“Enviar”>
+<inout type=“reset” name=“apaga” value=“Apagar”>
+</font>
+<br><br><br><br><br><br>
+
+
+<input type="text" id="id" name="id" />
+
+    <input type="reset" value=Apagar>
+    <input type="submit" value=Enviar>
+
+
+</form>
+</body>
+</html>
